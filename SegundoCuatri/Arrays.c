@@ -15,7 +15,7 @@ nota = 1; // Para que pase al while
 while ( nota != 0 && i < TAM){
 
     do{
-        printf("Ingrese la nota %d: \n", i+1);
+        printf("Ingrese la nota %d: \n", i + 1);
         scanf("%f", &nota);
 
     }while(nota < 0 || nota > 10);
@@ -46,5 +46,13 @@ for(int i=0; i < cant; i++){
 }
 printf("Nota maxima: %.2f \n", maximo);
 printf("Nota minima: %.2f \n", minimo);
+
+// Conocer notas mayores a 4
+
+for(int i=0; i < cant ; i++){
+    if(Notas[i] > 6){
+        printf("Nota %d: %.2f es mayor que 6 \n", i + 1 , Notas[i]);
+    }
+}
 
 }
