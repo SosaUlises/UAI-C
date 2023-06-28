@@ -24,10 +24,24 @@ int main()
 
 
 void ingresoDatos(float *n1, float *n2, float *n3, float *n4){
-    *n1 = 10;
-    *n2 = 20;
-    *n3 = 30;
-    *n4 = 50;
+    float nota;
+    int i;
+    for(i = 1; i <= 4; i++){
+        printf("Ingrese la nota: \n");
+        scanf("%f", &nota);
+        if(i == 1){
+            *n1 = nota;
+        }else
+        if(i == 2){
+            *n2 = nota;
+        }else
+        if(i == 3){
+            *n3 = nota;
+        }else{
+            *n4 = nota;
+        }
+        } 
+       
     return;
 }
 
