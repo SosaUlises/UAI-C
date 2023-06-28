@@ -7,7 +7,7 @@ float calcularPromedio(float notas, float contador);
 
 int main(){
 
-    float notas, maximo, minimo;
+    float notas, maximo, minimo; 
     int opcion, contador;
 
     do{
