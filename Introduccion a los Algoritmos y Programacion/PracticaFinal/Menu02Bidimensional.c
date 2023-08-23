@@ -33,7 +33,7 @@ int menu()
 {
     int op;
 
-    printf("1- Ingreso de datos en la matriz \n");
+    printf("1- Ingreso de datos en la matriz  \n");
     printf("2- Mostrar los datos de la matriz \n");
     printf("3- Sumar los datos de cada fila de la matriz \n");
     printf("4- Calcular el promedio por filas de la matriz \n");
