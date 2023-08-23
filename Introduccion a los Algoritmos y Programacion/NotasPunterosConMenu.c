@@ -27,7 +27,7 @@ int menu(){
     printf("3- Promedio total de notas. \n");
     printf("4- Maximo promedio de notas. \n");
     printf("5- Minimo promedio de notas. \n");
-    printf("0- Salir del programa. \n");
+    printf("0- Salir del programa \n");
     do{
         printf("Ingrese la opcion: \n");
         scanf("%d", &op);
