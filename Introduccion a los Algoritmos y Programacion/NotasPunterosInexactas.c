@@ -26,7 +26,7 @@ void ingresoDatos(float *notas, float *contador, float *minimo, float *max){
 
     float nota, acumulacion=0 ,cont=0;
 
-    printf("Ingrese una nota: \n");
+    printf("Ingrese una nota \n");
     scanf("%f", &nota);
 
     *minimo = nota;
