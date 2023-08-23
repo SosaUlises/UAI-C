@@ -32,7 +32,7 @@ int menu()
 {
     int op;
 
-    printf("1- Ingreso de datos en el arreglo \n");
+    printf("1- Ingreso de datos en el arreglo  \n");
     printf("2- Mostrar los datos del arreglo \n");
     printf("3- Sumar y mostrar los datos del arreglo \n");
     printf("4- Calcular el promedio de los datos del arreglo \n");
