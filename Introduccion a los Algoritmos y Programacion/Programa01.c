@@ -16,7 +16,7 @@
         a) El promedio diario de las temperaturas.
         b) La temperatura mi­nima y maxima.
         c) El maximo valor de humedad relativa.
-        d) Cual fue la maxima intensidad y direccion del viento.
+        d) Cual fue la maxima intensidad y direccion del viento
 
 */
 #include <stdio.h>
