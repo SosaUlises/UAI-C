@@ -32,7 +32,7 @@ void ingresoDatos(float CAMIONES[][CO])
         {
             if (j == 0)
             {
-                printf("Ingrese la unidad del camion: %d \n", i+1);
+                printf("Ingrese la unidad del camion: %d \n ", i+1);
                 scanf("%d", &camion);
                 CAMIONES[i][j] = camion;
             }else if(j == 1){
