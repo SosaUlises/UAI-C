@@ -56,7 +56,7 @@ int menu()
 {
     int op;
 
-    printf("1- Ingreso de datos \n");
+    printf("1- Ingreso de datos  \n");
     printf("2- Mostrar los datos \n");
     printf("3- Cotizar viaje \n");
     printf("4- Listado de cotizaciones \n");
