@@ -69,7 +69,7 @@ void salidaDatos(int nUnidad[], float promedio[], float costoOil[], float consum
     for ( int i = 0; i < CAM; i++)
     {
 
-        printf("Camion %d: \n", i + 1);
+        printf("Camion %d: \n ", i + 1);
 
         printf("Numero Unidad: %d \n", nUnidad[i]);
 
