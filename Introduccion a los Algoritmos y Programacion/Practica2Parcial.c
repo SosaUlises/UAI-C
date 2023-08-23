@@ -47,7 +47,7 @@ void ingresoDatos(char camion[20], int cViajes[], float kmRecorridos[]){
         scanf("%d", &viajes);
         cViajes[i] = viajes;
 
-        printf("Ingrese la cantidad de kmRecorridos");
+        printf("Ingrese la cantidad de kmRecorridos: \n");
         scanf("%f", &km);
         kmRecorridos[i] = km;
     }
