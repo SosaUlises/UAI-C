@@ -46,7 +46,7 @@ int menu()
 {
     int op;
 
-    printf("1- Ingreso de datos en el arreglo de estructuras \n");
+    printf("1- Ingreso de datos en el arreglo de estructuras \n ");
     printf("2- Mostrar los datos del arreglo de estructuras \n");
     printf("3- Mostrar la suma total de sueldos \n");
     printf("4- Ordenar por DNI \n");
